@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# playwright test artifacts
+.playwright-mcp/
+
+# AGENTS.md (auto-generated)
+AGENTS.md

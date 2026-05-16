@@ -175,9 +175,8 @@ export default function ApplyPage() {
       <GenerateModal
         open={showGenerateModal}
         sessionId={sessionId}
-        onClose={() => {
-          setShowGenerateModal(false);
-        }}
+        subsidyName={subsidyId}
+        onClose={() => setShowGenerateModal(false)}
         onComplete={handleGenerateComplete}
       />
     </div>
